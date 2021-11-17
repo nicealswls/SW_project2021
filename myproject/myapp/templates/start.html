@@ -1,14 +1,19 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
     <head>
+        <link rel="stylesheet" href="{% static 'css/form.css' %}">
         <title>시작 페이지</title>
     </head>
     <body>
         <h3>삼육대학교 동아리 추천!!!!</h3>
+        
         <p>JOINJS</p>
-        <p>이 플랫폼은 26개의 삼육대학교 동아리를 추천합니다...<br>
-        많이 이용해봐라....</p>
-        <img scr="">
+        <img src="static/css/img/bin.png">
+        <p>26개의 삼육대학교 정규 동아리 중<br>
+        설문을 통해 나와 가장 알맞는 동아리를 찾아보세요!
+        </p>
+        
         <button><a href="{%url 'Qna' %}">Start!</a></button>
     </body>
 </html>
