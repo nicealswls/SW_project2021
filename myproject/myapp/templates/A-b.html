@@ -2,18 +2,21 @@
 {% load static %}
 <html>
     <head>
-        <link rel="stylesheet" href="{% static 'css/form.css' %}">
+        <link rel="stylesheet" href="{% static 'css/Qna.css' %}">
     </head>
     <body>
         <h3>대학생이 된 후 여가시간을 어떻게 활용하고 싶나요?<br>
-            두 선택지 중 가장 이끌리는 것을 선택해보세요!</h3>
-
-        <img src="">
-        <button><a href="{%url 'society' %}">세상이 어떻게 돌아가는지 아는게 중요해!(사회)</a></button>
+            두 선택지 중 가장 끌리는 것을 선택 해보세요!</h3>
+        <div class="meter">
+            <span style="width: 80%"></span>
+        </div>
+        <section>
         <img src="{% static 'css/img/create.png' %}">
-        <button><a href="{%url 'create' %}">정보화 시대에 필요한 인재가 되고 싶어!(개발)
+        <button><a href="{%url 'society' %}">세상이 어떻게 돌아가는지 아는게 중요해!</a></button>
+        <img src="{% static 'css/img/create.png' %}">
+        <button><a href="{%url 'create' %}">정보화 시대에 필요한 인재가 되고 싶어!
         </a></button>
-        <br>
-        <button><a href="{%url 'A' %}">뒤로가기</a></button>
+        <br></section>
+        <button id="back"><a href="{%url 'A' %}">뒤로가기</a></button><br>
     </body>
 </html>

@@ -2,17 +2,21 @@
 {% load static %}
 <html>
     <head>
-        <link rel="stylesheet" href="{% static 'css/form.css' %}">
+        <link rel="stylesheet" href="{% static 'css/Qna.css' %}">
     </head>
     <body>
         <h3>대학생이 된 후 여가시간을 어떻게 활용하고 싶나요?<br>
-            두 선택지 중 가장 이끌리는 것을 선택해보세요!</h3>
-
-        <img src="">
-        <button><a href="{%url 'dance' %}">TV(스우파)에 나오는 댄서들 처럼 되고싶어!(댄스</a></button>
-        <button><a href="{%url 'sports' %}">운동은 나의 활력소야 열정만큼은 국가대표!(스포츠)
+            두 선택지 중 가장 끌리는 것을 선택 해보세요!</h3>
+        <div class="meter">
+            <span style="width: 80%"></span>
+        </div>
+        <section>
+        <img src="{% static 'css/img/picture.png' %}"><br>
+        <button><a href="{%url 'dance' %}">TV(스우파)에 나오는 댄서들 처럼 되고싶어!</a></button><Br>
+        <img src="{% static 'css/img/picture.png' %}"><br>
+        <button><a href="{%url 'sports' %}">운동은 나의 활력소야 열정만큼은 국가대표!
         </a></button>
-        <br>
-        <button><a href="{%url 'B' %}">뒤로가기</a></button>
+        <br></section>
+        <button id="back"><a href="{%url 'B' %}">뒤로가기</a></button>
     </body>
 </html>
