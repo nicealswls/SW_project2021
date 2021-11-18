@@ -1,0 +1,30 @@
+body { background: #e3f6f5;
+    vertical-align: middle;
+     border-radius: 30px;
+     width:900px; height: 680px ;
+     margin: auto;
+     animation: fadeInAnimation ease 2s;
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+ }
+html { background-color: #2c698d; }
+img { width:347px; height:227px; display: block; margin: auto;}
+#ready{text-align: center; 
+        font-family: Cafe24Ssurround;
+        font-size: 2em;
+        margin:1.3em; margin-bottom:0;
+        padding: 1.5em; padding-bottom:20px;}
+#content{text-align: center;
+    font-family: Cafe24Ssurround;
+    font-size:0.8em;}
+#name{text-align: center;
+    font-family: Cafe24Ssurround;}
+       
+@keyframes fadeInAnimation {
+    0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
