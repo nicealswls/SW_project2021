@@ -4,6 +4,12 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face {
+    font-family: 'LAB디지털';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/LAB디지털.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Cafe24Ssurround';
@@ -34,17 +40,19 @@ button { margin: auto;
          height: 70px;
          border-radius: 15px;
          font-size: 1.3em;
-         font-family: 'Cafe24Ssurround';
+         font-family: 'LAB디지털';
+         font-weight: 700;
          background-color: #ffcb00;
          box-shadow : 5px 5px;
          box-shadow : 8px 8px 10px;
          border-style: hidden; }
 a { text-decoration: none; 
-    color: black;}
-html { background-color: #1e2d36; }
+    color: black; animation: blink-effect 1s step-end infinite;}
+@keyframes blink-effect { 50% { opacity: 0; } }
+
+  html { background-color: #151538; }
 img { width:280px; height:190px; display: block; margin: auto;}
 span{text-shadow: 2.5px 2.5px 2.5px #000; color: #ffcb00;}
- 
 
 @keyframes fadeInAnimation {
     0% {

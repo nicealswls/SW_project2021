@@ -2,43 +2,41 @@
 {% load static %}
 <html>
     <head>
-        <link rel="stylesheet" href="{% static 'css/form.css' %}">
+        <link rel="stylesheet" href="{% static 'css/content.css' %}">
     </head>
     <body>
         <div id="ready">나와 가장 어울리는 동아리는... </div>
         <div id="content"> idea for ideal</div>
-        <div id="name"> 아이디어 동아리</div>
+        <div id="name"> "아이디어 동아리"</div><hr>
         <article>
-            <h3>teamMFS</h3>
+            <h3>&lt;teamMFS&gt;</h3>
             <img src="">
             <p>
                 아이디어가 통통 공대 감성이 뿜뿜하는 당신, <br>
                 넓은 작업실이 있는 teamMFS를 추천합니다.<br>
                 나만의 작업 공간을 가지고 놀듯이 활동을 하며, 자기 개발도 할 수 있으니 일석이조!<br>
                 기업과 협업하여 프로젝트를 진행할 수도 있습니다.<br></p>
-            <p>21년 모집 상황
                 <ul>
                     <li>활동 기간: </li>
                     <li>모집 대상: </li>
                     <li>지원 방법:</li>
-                </ul></p>
+                </ul></p> 
                     
         </article>
         <article>
-            <h3>Wings</h3>
+            <h3>&lt;Wings&gt;</h3>
             <img src="">
             <p>
                 다양한 아이디어가 있고, 그것을 직접 기획하는 활동을 하고 싶은 당신,<br>
                 아이디어 프로젝트 동아리 Wings를 추천합니다!<br>
                 캠페인, 이벤트, 공모전, 상품 제작 등 어떤 활동이든 프로젝트로 만들어 추진할 수 있습니다.</p>
-            <p>21년 모집 상황
                 <ul>
                     <li>활동 기간: </li>
                     <li>모집 대상: </li>
                     <li>지원 방법:</li>
-                 </ul></p>   
+                </ul></p>  
                     
         </article>
-        <button><a href="{%url 'list' %}">다른 동아리 보러가기!</a></button>
+        <button><a href="{%url 'list' %}">다른 동아리 보러가기!</a></button><br>
     </body>
 </html>

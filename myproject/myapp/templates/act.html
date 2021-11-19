@@ -2,22 +2,29 @@
 {% load static %}
 <html>
     <head>
-        <link rel="stylesheet" href="{% static 'css/form.css' %}">
+        <link rel="stylesheet" href="{% static 'css/content.css' %}">
     </head>
     <body>
         <div id="ready">나와 가장 어울리는 동아리는... </div>
         <div id="content">당신은 사랑 받기위해 태어난 사람~ </div>
-        <div id="name"> 종교 동아리</div>
+        <div id="name"> 종교 동아리</div><hr>
+
         <article>
             <h3>ACT</h3>
             <img src="">
             <p>성경 공부에 열중하고 싶은 당신! 혹시 "ACT"는 어떠신가요?<br>
 
-                ACT는 삼육대학교 종교 동아리로서 성경을 통해 소통하고 나누며 성경지식을 얻을 수 있는 곳입니다.<br>
+                ACT는 종교 동아리로서 성경을 통해 소통하고 나누며 성경지식을 얻을 수 있습니다.<br>
                 또한, 교회와 협력하여 대외 봉사활동까지 겸할 수 있습니다.<br>
                 
-                신앙을 바로 잡고싶거나 ,채플과 종교 수업으로 삼육대학교의 교리를 알고 싶으신 분들은 ACT에 가입해보세요!</p>
+                신앙을 바로 잡고싶거나, 삼육대학교의 교리를 알고 싶다면 ACT에 가입해보세요!</p>
+                <ul>
+                    <li>활동 기간: </li>
+                    <li>모집 대상: </li>
+                    <li>지원 방법:</li>
+                </ul></p> 
         </article>
-        <button><a href="{%url 'list' %}">다른 동아리 보러가기!</a></button>
+
+        <button><a href="{%url 'list' %}">다른 동아리 보러가기!</a></button><br>
     </body>
 </html>

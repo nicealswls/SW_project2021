@@ -2,7 +2,7 @@
 {% load static %}
 <html>
     <head>
-        <link rel="stylesheet" href="{% static 'css/form.css' %}">
+        <link rel="stylesheet" href="{% static 'css/content.css' %}">
         <title>결과지</title>
     </head>
     <body>
@@ -11,7 +11,7 @@
         <div id="name"> <br> 봉사 동아리</div>
         <hr>
         <article>
-            <h3>심금</h3>
+            <h3>&lt;심금&gt;</h3>
             <img src="">
             <p>여러 분야의 봉사에 관심이 많은 당신! 혹시 "심금"은 어떠신가요?
 
@@ -20,9 +20,14 @@
                 
                 봉사 활동 결정 과정에서는 비대면으로 모든 부원의 아이디어를 
                 공유하여 투표하는 방식으로 진행됩니다.</p>
+                <ul>
+                    <li>활동 기간: </li>
+                    <li>모집 대상: </li>
+                    <li>지원 방법:</li>
+                </ul></p> 
         </article>
         <article>
-            <h3>뚜벅초</h3>
+            <h3>&lt;뚜벅초&gt;</h3>
             <img src="">
             <p>봉사 스펙을 쌓고 싶은 당신! 혹시"뚜벅초가 간다!"는 어떠신가요?
 
@@ -30,16 +35,15 @@
                 매주 금요일마다 독거노인댁에 방문하여 말벗 봉사를 진행하는 동아리입니다.
                 뿐만 아니라 농작물을 길러 배달을 하고, 피플스 글로서리에 참여하여 봉사를하며 장학금까지 받을 수 있습니다!</p>
 
-            <p>21년 모집 상황
-            <ul>
-                <li>활동 기간: </li>
-                <li>모집 대상: </li>
-                <li>지원 방법:</li>
-            </ul></p>
+                <ul>
+                    <li>활동 기간: </li>
+                    <li>모집 대상: </li>
+                    <li>지원 방법:</li>
+                </ul></p> 
                 
         </article>
         <article>
-            <h3>보담</h3>
+            <h3>&lt;보담&gt;</h3>
             <img src="">
             <p>정기적인 봉사에 관심이 많은 당신! 혹시 "보담"은 어떠신가요?
 
@@ -49,14 +53,13 @@
                 또한, 21년 부터 굿네이버스 경기북구지부와 연계를 맺어 
                 해당 기관과 함께 진행하는 인형극팀,캠페인의 팀원을 모집합니다.
                 </p>
-            <p>21년 모집 상황
                 <ul>
                     <li>활동 기간: </li>
                     <li>모집 대상: </li>
                     <li>지원 방법:</li>
-                </ul></p>
+                </ul></p> 
                     
         </article>
-        <button><a href="{%url 'list' %}">다른 동아리 보러가기!</a></button>
+        <button><a href="{%url 'list' %}">다른 동아리 보러가기!</a></button><br>
     </body>
 </html>
