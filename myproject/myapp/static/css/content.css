@@ -42,10 +42,12 @@ button {border-style: hidden; display:block; font-family: 'Cafe24Ssurround';box-
 #name{text-align: center;
     font-family: 'Cafe24Ssurround';
     font-size:2.3em; margin-bottom:25px; margin-top:10px;}
-h3 { text-align: center; 
+h1 { text-align: center; 
     font-family: 'Cafe24Ssurround';
     font-size: 1.7em;
-    margin-bottom:0;padding-bottom:20px;}
+    margin-bottom:0;padding-bottom:20px;
+    color:rgb(114, 151, 175);
+    text-shadow: -1px -1px 0px white, 2px 2px 0px #000, 4px 4px 4px #000;}
 article{display:inline;  font-weight: 100; margin:1.1em;}
 p{font-family: 'NeoDunggeunmo';margin-bottom: 1.5em;}
 ul{padding:1.1em;margin-left:18em;;width:400px; height:4.5em; font-family: 'NeoDunggeunmo'; 
