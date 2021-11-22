@@ -30,7 +30,7 @@ html { background-color: #151538; }
 a { text-decoration: none; 
     color: black; padding:1.3em;}
 button {border-style: hidden; display:block; font-family: 'Cafe24Ssurround';box-shadow : 3px 3px 3px; 
-    background-color: rgb(142, 149, 206); height:40px; margin:auto}
+    background-color: rgb(142, 149, 206); height:40px; margin:auto; border-radius: 15px;}
 #ready{text-align: center; 
         font-family: Cafe24Ssurround;
         font-size: 1.6em;
@@ -46,20 +46,24 @@ h1 { text-align: center;
     font-family: 'Cafe24Ssurround';
     font-size: 1.7em;
     margin-bottom:0;padding-bottom:20px;
-    color:rgb(114, 151, 175);
-    text-shadow: -1px -1px 0px white, 2px 2px 0px #000, 4px 4px 4px #000;}
+    color:rgb(43, 94, 128);
+    text-shadow: -1px -1px 0px rgb(188, 219, 236), 2px 2px 0px rgb(131, 131, 133), 4px 4px 4px rgb(76, 76, 77);}
 article{display:inline;  font-weight: 100; margin:1.1em;}
-p{font-family: 'NeoDunggeunmo';margin-bottom: 1.5em;}
+p{font-family: 'NeoDunggeunmo';margin-bottom: 1.5em; margin-right: 2.0em;}
 ul{padding:1.1em;margin-left:18em;;width:400px; height:4.5em; font-family: 'NeoDunggeunmo'; 
     border: 4px dotted rgb(166, 196, 202);margin-bottom: 20px;}
 li{margin-bottom:8px;}
-img { margin: 1.3em;width:250px; height:200px; float:left;}    
-#list{height:40em; text-align: center;}
+img { margin: 1.3em;width:250px; height:200px; float:left; border-radius: 15px; box-shadow: 5px 5px rgb(46, 53, 73);}    
+#list{height:41em; text-align: center;}
 #list h3{padding-top:1.2em;}
 #list ul{margin-left:11em;height:16em;list-style-type: none;text-align: center; font-size: 1.3em; padding:1.2em;}
 #list ul a:hover{color:gold;}
 #list button{margin-left:30em;margin-top:3em;}
+#list h2 {font-family:  'Cafe24Ssurround';}
 hr{border: 2px dotted rgb(166, 196, 202);}
+#list span { display: none; }
+#list li:hover span{display:inline;}
+
 @keyframes fadeInAnimation {
     0% {
           opacity: 0;
