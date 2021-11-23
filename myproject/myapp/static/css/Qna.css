@@ -47,7 +47,9 @@ button { margin: auto;
          font-family: 'Cafe24Ssurround';
          background-color: #b0cdee;
          border-style: hidden; 
-        padding-left: 1.2em; padding-right: 1.2em;}
+        padding-left: 1.2em; padding-right: 1.2em;
+        box-shadow: 5px 3px rgb(161, 168, 187);}
+button:hover {background-color: #85b1e4;}
 #back{ box-shadow : 3px 3px 3px; background-color: rgb(142, 149, 206); height:40px; margin:auto}
 a { text-decoration: none; 
     color: black; padding:1.3em;}
